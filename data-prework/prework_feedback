@@ -1,0 +1,93 @@
+Hi Ziga! 🙋‍♂️ Here I send you some feedback about your prework 😀 
+
+First of all, I want to welcome you to this bootcamp. It is going to be a great experience and challenge. We are looking forward to help you along the way. 
+
+You did a good job with the prework. You solved many of the exercises and used different methods. 
+
+However, the aim of this bootcamp is to push the students to always try as hard as possible. Therefore, I have to ask you to please keep trying with the missing exercises. 
+
+On the following lines I will send you some feedback about the prework exercises. Most of the are not about mistakes, they are proposals in case you would like to make changes in your code.
+
+1 - Snail-and-Well
+
+The first exercise is correct. You have an error in the third one, that says: `NameError: name 'days' is not defined`. This means that, for wathever reason, it didn't register the variable you defined in the first one. However, the logic is good as it works in the fourth exercise and the result is right.  
+
+For the first exercise in the bonus, the logic is the same as in the previous exercise. The difference is that, instead of using `daily_distance` to calculate how much the snail advances, you need to iterate through the advance_cm dictionary to see its progress. 
+
+The change to insert in the code is the following:
+
+``` python
+    snail_position += advance_cm[days]
+```
+In the next exercises, you calculate the max, min and average of the entire list. But in this case it should be calculated over the days it took the snail to get out of the well. Also, keep in mind that the snail slides 20cm, so this should be subtracted from the result. 
+
+Finally, there is a library called Statistics that has a function to calculate the standard deviation. Here I send you some documentation:
+
+[geekforgeeks std documentation](https://www.geeksforgeeks.org/python-statistics-stdev/#:~:text=Statistics%20module%20in%20Python%20provides,rather%20than%20an%20entire%20population.&text=It%20is%20used%20to%20quantify,a%20set%20of%20data%20values.) 
+
+2 - Duel-of-Sorcerers
+
+All good here 😀
+
+We encourage you to try to do the bonus. If you try and have concrete questions, please let us know and we will help you. 
+
+3 - Bus
+
+The first exercise is correct, as the `len()` function gives you the amount of elements in the list, which in this case it is the amount of stops. 
+
+Please, try to do the rest of the exercises, as what you will learn doing them will be essential along the bootcamp. 
+
+In the following lines I will you a brief explanation of how you can solve them:
+
+In the second exercise you need to calculate how many people are in the bus after each stop. 
+
+To do so, first create an empty list to store the amount of people that is in the bus after each stop. 
+
+for example: `passengers_at_stop = []`
+
+Then create a variable to store the calculation, and set it to 0. 
+
+`total = 0`
+
+Create a for loop that iterates through the list, and subtracts the second element in the tuple from the first. 
+
+The result should be stored in the `total` variable, and then appended to the `passengers_at_stop = []` list using `passengers_at_stop.append(total)`.
+
+In the third one you need to find the `max()`, the `min()`, the average and the `stdev` from the `passengers_at_stop = []` list. 
+
+4 - Robin-Hood 
+
+The first exercise is perfect. 
+
+Again, please try to do the rest. 
+
+For the second exercise, you need to create a variable for each quadrant and set it to 0. 
+
+Then create a for loop to iterate through the list, and put if, elif and else statements with the conditions for each quadrant. You can check the conditions in the link in the `context` segment in the notebook. 
+
+For the rest of the exercises, please tell me if you try and need help. 
+
+5 - Temperature-Processor
+
+The first four exercises are correct, and I see that you used the statistics library here. That is great 😀
+
+In the fifth you have to decide a way of estimating which could be an acceptable guess for the temperature in the third our, which is the 0. One way could be to calculate the mean of the previous and next our, and use it as substitution. 
+
+In the sixth one you need to apply the formula to each element of the list. 
+
+Finally, you check if any of the conditions is met using if statements, to decide if the system needs to be changed. 
+
+The conditions are stored in `hot70s`, the `max(temperatures_C)` and `statistics.mean(temperatures_C)`. 
+
+6 - Rock-Paper-Scissors
+
+I understand that functions are difficult to understand at first. But they are very useful and a great tool you will end up using regularly. 
+
+Here I send you some documentation about the functions, so you can try to work on the exercises. 
+
+[W3 school - functions documentation](https://www.w3schools.com/python/python_functions.asp) 
+[Real Python - function documentation](https://realpython.com/python-return-statement/#:~:text=The%20Python%20return%20statement%20is%20a%20special%20statement%20that%20you,can%20be%20any%20Python%20object.) 
+
+Congratulations on what you have learned so far, and keep up the good work. From now on enjoy this bootcamp and learn as much as possible 🚀 
+
+<img width=1000 src="./meme_prework.png">
